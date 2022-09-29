@@ -1,0 +1,167 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+/** ============
+    Layout
+==============*/
+
+main{
+    width: 500px;
+    margin: 0 auto;
+}
+
+main img{
+    width: 100%;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    padding: .4em .9em;
+    margin-bottom: 5px;
+    font-size: 1.5rem;
+}
+
+.li-green{
+    background-color: rgb(189, 254, 232);
+}
+
+.li-yellow{
+    background-color: rgb(237, 237, 170);
+}
+
+.li-blue{
+    background-color: rgb(126, 126, 240);
+}
+
+.li-pink{
+    background-color: rgb(255, 217, 224);
+}
+
+/** ============
+    Typography
+==============*/
+h1{
+    font-size: 3rem;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+p{
+    font-size: 1.3rem;
+    line-height: 1.3;
+    font-weight: 500;
+}
+
+h2{
+    font-size: 1.8rem;
+    margin: 0;
+}
+
+/** ============
+    Modal
+==============*/
+.modal{
+    background: rgba(0, 0, 0, .85);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    display: none;
+}
+
+.modal-inner{
+    background: #fff;
+    width: 400px;
+    height: 425px;
+    padding: 5px 20px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 7px #fff;
+}
+
+.close-modal-container{
+    position: relative;
+    left: 340px;
+    top: 3px;
+}
+
+.modal-close-btn{
+    background-color: rgb(213, 213, 213);
+    font-weight: 700;
+    font-size: 5rem;
+    color: rgb(48, 46, 46);
+    font-size: 1.5rem;
+}
+
+.modal-close-btn:hover,
+.modal-close-btn:focus,
+.modal-close-btn:active{
+    cursor: pointer;
+    color: rgb(255, 0, 0);
+}
+
+.modal-close-btn:disabled{
+    color: grey;
+    opacity: .4;
+    cursor: not-allowed;
+}
+
+input{
+    width: 100%;
+    height: 35px;
+    margin-bottom: 8px;
+    padding: .2em .5em;
+    font-size: 1rem;
+}
+
+.modal-choice-btns{
+    display: flex;
+    justify-content: center;
+    gap: .4em;
+}
+
+.escape{
+    flex-direction: row-reverse;
+}
+
+.modal-choice-btns > button{
+    margin-top: .6rem;
+    font-size: 1.2rem;
+    padding: .2em .4em;
+    box-shadow: 0 0 4px rgba(0, 0, 0, .5);
+}
+
+.loading{
+    width: 100%;
+}
+
+.idiot-gif > img{
+    width: 100%;
+}
+
+.modified{
+    margin-top: 20px;
+}
+
+.modal-display-name{
+    color: blueviolet;
+    font-size: 30px;
+}
